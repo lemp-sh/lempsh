@@ -1,0 +1,18 @@
+Source: lempsh
+Section: utils
+Priority: optional
+Maintainer: Aron Xu <happyaron.xu@gmail.com>
+Build-Depends: debhelper (>= 9),
+Standards-Version: 4.1.3
+Homepage: http://github.com/lemp-sh/lempsh
+
+Package: lempsh
+Architecture: all
+Depends: nginx,
+         php7.2,
+         default-mysql-server | mysql-server,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: meta package for lemp-sh installation
+  lemp.sh is a project to provide up-to-date version of LEMP setup
+  for stable Linux releases 
