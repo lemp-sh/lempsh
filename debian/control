@@ -9,7 +9,7 @@ Homepage: http://github.com/lemp-sh/lempsh
 Package: lempsh
 Architecture: all
 Depends: nginx,
-         php7.2,
+         php7.2-fpm,
          default-mysql-server | mysql-server,
          ${misc:Depends},
          ${shlibs:Depends}

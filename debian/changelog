@@ -1,4 +1,10 @@
-lempsh (0.1.0) unstable; urgency=medium
+lempsh (0.1.1) xenial; urgency=medium
+
+  * control: replace php7.2 with php7.2-fpm
+
+ -- Aron Xu <aron@debian.org>  Thu, 17 May 2018 17:31:01 +0800
+
+lempsh (0.1.0) xenial; urgency=medium
 
   * Initial release.
 
